@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar-expand-lg {
+
+width: 100%;
+background-color: #000000;
+
+
+
+}
+
+.navbar-expand-lg li{
+    border-radius: 12px;
+    transition: 0.5s;
+   
+    margin: 0 7px 0 1px;
+
+}
+.navbar-nav li:hover{
+ background-color: rgb(109, 27, 27) ;
+}
+.navbar-expand-lg a{
+    color: beige;
+
+}
+.navbar-toggler-icon{
+    background-color: white; 
+    border-radius: 9px;
+}
+.dropdown-menu a {
+    color: rgb(0, 0, 0);
+
+}
+.nav-item{
+    color: white;
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.60)), url(img/free-photo-of-soldiers-parading-along-a-city-street.jpeg);
+    height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+
+}
+.card1{
+    width: 20vh;
+    color: none;
+    text-align: center;
+   
+}
+.card-body{
+   box-sizing: unset;
+}
+.sec-2{
+    max-width: 600px ;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 11rem
+}
+.card-flex{
+    display: flex;
+    justify-content:center;
+    gap: 35px;
+
+}
+.container{
+    text-align: center;
+}
+.card-body h5{
+    margin: 0px 0 8px 0;
+}
+.sect-3{
+   
+    background-color: black;
+    padding: 2rem 0px 38px 0;
+    
+}
+.notific{
+    background-color: black;
+    padding: 0 6px 0 6px;
+    color: white;
+    border-radius: 13px;
+}
+.btn-danger{
+    background-color: #dc3545;
+    border-color: #dc3545;
+    padding: 5px 7px 3px 7px;
+    border-style: none;
+    /* margin: 0 148px 0 -2px; */
+    margin-right: 19rem;
+    font-size: 14px;
+}
+.container2{
+    color: white;
+    text-align: center;
+    
+}
+.dates{
+    max-width: 500px;
+    margin: auto;
+}
+.cardi-flex{
+    display: flex;
+    gap: 12px;
+    margin-top: 2rem;
+    justify-content: center;
+}
+.card-2{
+    width: 12vh;
+    background-color: white;
+    
+    height: 50vh;
+    
+}
+.card-2 h5{
+    padding: 0 0 0 9px;
+}
+.card-2 p{
+    text-align: inherit;
+    padding: 0 0 0 8px;
+
+}
+.btn-primary{
+    background-color: #000000;
+}
+.card-body a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 7px 6px 7px;
+    border-radius: 3px;
+    margin: 0px 0 0 7px;
+}
+.heading{
+    text-align: center;
+}
+.row1{
+    
+    text-align: center;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+   
+}
+.col1{
+    border: 1px solid black;
+
+}
+.float-1{
+    
+    display: grid;
+    justify-content: center;
+   
+    margin: 3px 0 0 -4px
+}
+
+
+.for-flex{
+    display: flex;
+    gap: 3px;
+}
+.for-scale{
+    transform: scale(0.7);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 0px 0 -32px 0px;
+}
+
+
+footer div {
+    text-align: center;
+}
+.sect-4{
+    margin-bottom: 0;
+}
